@@ -4,8 +4,8 @@
 Esse projeto foi desenvolvido como forma de colocar em prática os meus estudos em front-end. 
 </p>
 <br>
-<p> 
-<img alt="projeto social link tree" scr="/public/img/screenshot.png">
+<p align="center"> 
+<img alt="projeto social link tree" src="public/img/screenshot.png">
 </p>
 
 ## Conceitos 
