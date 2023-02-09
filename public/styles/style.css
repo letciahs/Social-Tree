@@ -1,0 +1,187 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #ffffff;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.pfp {
+  width: 200px;
+  border-radius: 50%;
+  padding: 3px;
+}
+.title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  text-align: center;
+  color: #1c1c1c;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+.btn {
+  background-color: transparent;
+  border: 2px solid;
+  border-radius: 4px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #1c1c1c;
+  font-size: 16px;
+  padding: 12px 0;
+  width: 326px;
+  transition: all 0.2s ease-in-out;
+}
+.btn:hover {
+  background-color: #1c1c1c;
+  color: #faf7fd;
+}
+.images {
+  display: flex;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+}
+
+.image1 {
+  position: absolute;
+  top: 0;
+  left: 22px;
+}
+.theme-picture {
+  width: 300px;
+}
+.icon {
+  stroke: #1c1c1c;
+}
+.icon-fill {
+  fill: #1c1c1c;
+}
+.icon-fill-stroke {
+  fill: #1c1c1c;
+  stroke: #1c1c1c;
+}
+.btn:hover .icon {
+  stroke: #faf7fd;
+}
+.btn:hover .icon-fill {
+  fill: #faf7fd;
+}
+
+.btn {
+backdrop-filter: blur(5px);
+}
+
+.btn:hover .icon-fill-stroke {
+  fill: #faf7fd;
+  stroke: #faf7fd;
+}
+.image-container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.image-theme {
+  position: absolute;
+  width: 200px;
+  z-index: -1;
+}
+#img2 {
+  top: 15%;
+  left: 10%;
+  animation: float 6s ease-in-out infinite;
+}
+
+#img3 {
+  bottom: 5%;
+  left: 80%;
+  animation: float-reverse 6s ease-in-out infinite;
+}
+#img4 {
+
+  top: 40%;
+  left: 70%;
+  animation: float 6s ease-in-out infinite;
+}
+#img5 {
+width: 400px;
+  top: 20%;
+  left: 80%;
+  animation: float-reverse 6s ease-in-out infinite;
+}
+#img6 {
+
+  top: 70%;
+  left: 20%;
+  animation: float 6s ease-in-out infinite;
+}
+#img7 {
+
+  top: 50%;
+  left: 5%;
+  animation: float-reverse 6s ease-in-out infinite;
+}
+#img8 {
+
+  top: 65%;
+  left: 65%;
+  animation: float 6s ease-in-out infinite;
+}
+#img9 {
+  
+  top: 5%;
+  left: 70%;
+  animation: float-reverse 6s ease-in-out infinite;
+}
+#img10 {
+  
+  top: 5%;
+  left: 30%;
+  animation: float 6s ease-in-out infinite;
+}
+#img11 {
+
+  top: 50%;
+  left: 30%;
+  animation: float-reverse 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px) rotate(-10deg);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px) rotate(-10deg);
+  }
+}
+@keyframes float-reverse {
+  0% {
+    transform: translateY(0px) rotate(10deg);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px) rotate(10deg);
+  }
+}
